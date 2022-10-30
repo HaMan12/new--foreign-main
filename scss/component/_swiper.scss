@@ -1,0 +1,30 @@
+.pc-small-card  {
+  .swiper-slide-thumb-active {
+    opacity: 0.6;
+  }
+}
+
+.mobile-small-card {
+  .swiper-slide {
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 5px solid $white;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .3s,visibility.3s;
+    } 
+  }
+  .swiper-slide-thumb-active {
+    &::before {
+      opacity: 0.5;
+      visibility: visible;
+    }
+  }
+}
+

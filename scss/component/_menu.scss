@@ -1,0 +1,37 @@
+// 漢堡選單
+.hamburger {
+  &.is-active {
+    span {
+      &:first-child {
+        margin-top: 0;
+        transform: translate(-50%,-50%) rotate(45deg);
+      }
+      &:nth-child(2) {
+        transform: translate(100%,-50%);
+        opacity: 0;
+      }
+      &:last-child {
+        margin-top: 0;
+        transform: translate(-50%,-50%) rotate(-45deg);
+      }
+    }
+  }
+}
+
+.mobile-nav {
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform .3s,visibility .3s;
+  &.is-active {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+// 下拉選單
+.dropDownMenuArrow {
+  transition: transform .3s;
+  &.is-active {
+    transform: rotate(-180deg);
+  }
+}

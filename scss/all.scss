@@ -1,0 +1,14 @@
+// googole font 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Rubik:wght@400;700&display=swap');
+
+// config
+@import 'config/reboot';
+@import 'config/sass-mq';
+@import 'config/mixins';
+@import 'config/variables';
+
+// component 
+@import 'component/menu';
+@import 'component/swiper';
+@import 'component/modal';
+@import 'component/form';

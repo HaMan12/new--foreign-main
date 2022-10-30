@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Rubik:wght@400;700&display=swap");
+body { font-family: 'Noto Sans TC' , sans-serif; overflow-x: hidden; color: #505050; }
+
+input:focus, button:focus, textarea:focus, select:focus { outline: none; }
+
+input { -webkit-appearance: none; border-radius: 0; }
+
+select { -webkit-appearance: none; border-radius: 0; }
+
+.hamburger.is-active span:first-child { margin-top: 0; -webkit-transform: translate(-50%, -50%) rotate(45deg); transform: translate(-50%, -50%) rotate(45deg); }
+
+.hamburger.is-active span:nth-child(2) { -webkit-transform: translate(100%, -50%); transform: translate(100%, -50%); opacity: 0; }
+
+.hamburger.is-active span:last-child { margin-top: 0; -webkit-transform: translate(-50%, -50%) rotate(-45deg); transform: translate(-50%, -50%) rotate(-45deg); }
+
+.mobile-nav { -webkit-transform: translateX(100%); transform: translateX(100%); visibility: hidden; -webkit-transition: visibility .3s,-webkit-transform .3s; transition: visibility .3s,-webkit-transform .3s; transition: transform .3s,visibility .3s; transition: transform .3s,visibility .3s,-webkit-transform .3s; }
+
+.mobile-nav.is-active { -webkit-transform: translateX(0); transform: translateX(0); visibility: visible; }
+
+.dropDownMenuArrow { -webkit-transition: -webkit-transform .3s; transition: -webkit-transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
+
+.dropDownMenuArrow.is-active { -webkit-transform: rotate(-180deg); transform: rotate(-180deg); }
+
+.pc-small-card .swiper-slide-thumb-active { opacity: 0.6; }
+
+.mobile-small-card .swiper-slide::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 50%; border: 5px solid #ffffff; opacity: 0; visibility: hidden; -webkit-transition: opacity 0.3s, visibility 0.3s; transition: opacity 0.3s, visibility 0.3s; }
+
+.mobile-small-card .swiper-slide-thumb-active::before { opacity: 0.5; visibility: visible; }
+
+.modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.64); z-index: 1000; overflow-x: hidden; overflow-y: auto; opacity: 0; visibility: hidden; -webkit-transition: opacity 0.3s, visibility 0.3s; transition: opacity 0.3s, visibility 0.3s; }
+
+.modal.is-active { opacity: 1; visibility: visible; }
+
+.modal1 {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.64); z-index: 1000; overflow-x: hidden; overflow-y: auto; opacity: 0; visibility:hidden; -webkit-transition: opacity 0.3s, visibility 0.3s; transition: opacity 0.3s, visibility 0.3s;}
+
+.modal1.is-active { opacity: 1; visibility: visible; }
+
+.modal__main { position: relative; max-width: 1360px; margin: 4rem auto; padding: 0 1rem; }
+
+@media (min-width: 48em) { .modal__main { margin: 5rem auto; } }
+
+@media (min-width: 62em) { .modal__main { margin: 6rem auto; } }
+
+@media (min-width: 75em) { .modal__main { margin: 8.125rem auto; } }
+
+.modal__main img { display: none; position: absolute; }
+
+@media (min-width: 48em) { .modal__main img { display: block; top: -4rem; right: 5rem; } }
+
+@media (min-width: 62em) { .modal__main img { top: -3rem; right: 8.75rem; } }
+
+.modal__content { position: relative; width: 100%; background-color: #E8E8E8; border-radius: .625rem; padding: 1.875rem 1.25rem; }
+
+@media (min-width: 48em) { .modal__content { padding: 6.875rem 4rem 3rem; } }
+
+@media (min-width: 62em) { .modal__content { padding: 6.875rem 6rem 3rem; } }
+
+@media (min-width: 75em) { .modal__content { padding: 6.875rem 8.75rem 3rem; } }
+
+.form-radio input[type="radio"] { display: none; }
+
+.form-radio input[type="radio"]:checked ~ .form-radio__btn { background-color: #7209B7; color: #ffffff; }
+
+.form-radio__btn { display: inline-block; background-color: #ffffff; border: 1px solid #7209B7; border-radius: 31px; -webkit-transition: background-color .3s,color .3s; transition: background-color .3s,color .3s; padding: 1.25rem; cursor: pointer; }
+
+@media (min-width: 75em) { .form-radio__btn { padding: 1.25rem 7.8125rem; } }
+
+.form-radio__btn:hover { background-color: #7209B7; color: #ffffff; }
+
+.form-radio--spacing { width: 100%; padding: 1.25rem; }
+
+@media (min-width: 75em) { .form-radio--spacing { padding: 1.25rem 5rem; } }
+
+.form-radio--opacity { display: none; opacity: 0; visibility: hidden; }
+
+@media (min-width: 75em) { .form-radio--opacity { display: block; } }
+
+@media  (max-width:48em) {
+    .textset{
+        text-overflow: ellipsis;
+        overflow:hidden;
+        white-space: nowrap;-webkit-line-clamp:3;
+        -webkit-box-orient: vertical;
+    }
+}
+.swiper-button-prev{
+    background-image: url(../img/icon/旅遊arrow_L.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+}
+.swiper-button-next{
+    background-image: url(../img/icon/旅遊arrow_R.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+}
+.bg-control{
+    background-image:url(../img/pc/bg/bg-title3.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.bg-controls{
+    background-image: url(../img/pc/bg/bg-monkey.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 20px;
+    mix-blend-mode:multiply;
+
+}
+@media (max-width:768px) {
+    .bg-control{
+        background-image:url(../img/mobile/bg/防疫法令宣導bg.svg);
+        background-position:bottom;
+    }
+   .bg-controls{
+    background-image: url(../img/mobile/bg/猴痘預防注意事項bg.svg);
+    background-position: top;
+    padding-bottom:0px;
+     }
+}
+@media (max-width:48em){
+    .img-control{
+       width: 30%;
+       bottom: -60px;
+       left: 40%;
+    }
+}
+@media (max-width:37.5em){
+    .img-control{
+       width: 40%;
+       bottom: -60px;
+       left: 35%;
+    }
+}
+@media (max-width:25em){
+    .img-control{
+       width: 50%;
+       bottom: -40px;
+       left: 25%;
+    }
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* margin-right: 4px; */
+  }
+

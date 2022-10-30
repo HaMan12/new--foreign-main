@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-icon-chinese">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="icon-chinese" clip-path="url(#clip-icon-chinese)">
+    <g id="中文" transform="translate(-251 81)">
+      <circle id="椭圆_33" data-name="椭圆 33" cx="12" cy="12" r="12" transform="translate(251 -81)" fill="#cf1e2d"/>
+      <path id="路径_831" data-name="路径 831" d="M264.188-80.98q-.342-.02-.688-.02A12.5,12.5,0,0,0,251-68.5a12.594,12.594,0,0,0,.161,2h13.027Z" fill="#00408f"/>
+      <g id="组_185" data-name="组 185" transform="translate(252.967 -77.75)">
+        <path id="路径_832" data-name="路径 832" d="M261.276-72.809l-2.659,9.926,7.266-7.266-9.926,2.659,9.926,2.659L258.617-72.1l2.659,9.926,2.659-9.926-7.265,7.27,9.93-2.66-9.926-2.659,7.266,7.266-2.659-9.926" transform="translate(-255.957 72.809)" fill="#fff"/>
+      </g>
+      <circle id="椭圆_34" data-name="椭圆 34" cx="2.837" cy="2.837" r="2.837" transform="translate(255.219 -75.564)" fill="#fff"/>
+      <path id="路径_833" data-name="路径 833" d="M264.78-60.972a3.017,3.017,0,0,1-3.014-3.014A3.017,3.017,0,0,1,264.78-67a3.017,3.017,0,0,1,3.014,3.014,3.017,3.017,0,0,1-3.014,3.014Zm0-5.673a2.662,2.662,0,0,0-2.659,2.659,2.662,2.662,0,0,0,2.659,2.659,2.663,2.663,0,0,0,2.659-2.659A2.662,2.662,0,0,0,264.78-66.645Z" transform="translate(-6.719 -8.738)" fill="#00408f"/>
+    </g>
+  </g>
+</svg>

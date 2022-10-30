@@ -1,0 +1,44 @@
+// 色系
+$primary: #7209B7;
+$danger: #F72585;
+$purple: #3A0CA3;
+$purple-100: #DCCCE6;
+$purple-100: #A971CE;
+$light-purple: #907AA6;
+$bright-purple: #EDE0F6;
+$light-yellow: #F5AA00;
+$dark-yellow: #CBB747;
+$red: #dc3545;
+$light-red: #F72541;
+$gray: #8D8D8D;
+$gray-100: #E8E8E8;
+$gray-200: #949494;
+$gray-300: #D4D4D4;
+$gray-400: #707070;
+$gray-500: #B8B8B8;
+$light-gray: #817885;
+$dark-gray: #505050;
+$blue-100: #4CC9F0;
+$blue-200: #0285AE;
+$blue-300: #4361EE;
+$blue-400: #00B1C3;
+$blue-500: #019FE8;
+$blue-600: #535CA7;
+$blue-700: #0285AE;
+$green-100: #9CC715;
+$green-200: #3C9537;
+$brown: #BD9369;
+$black: #000000;
+$white: #ffffff;
+
+// 灰階，寫法nth($grayscale,第幾個顏色、css第一個位子為1，js才是0)
+// 此專案無灰階
+
+// RWD斷點
+$mq-breakpoints: (
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+  xxl: 1601
+);

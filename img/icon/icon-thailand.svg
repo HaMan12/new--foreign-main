@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="12" cy="12" r="12" transform="translate(2014 79)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-icon-thai">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="icon-thai" clip-path="url(#clip-icon-thai)">
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-2014 -79)" clip-path="url(#clip-path)">
+      <g id="组_179" data-name="组 179" transform="translate(1457.221 -15.184)">
+        <rect id="矩形_100" data-name="矩形 100" width="36.964" height="24.643" transform="translate(550.779 94.184)" fill="#fff"/>
+        <rect id="矩形_101" data-name="矩形 101" width="36.964" height="8.235" transform="translate(550.779 102.387)" fill="#fff"/>
+        <rect id="矩形_102" data-name="矩形 102" width="36.964" height="8.133" transform="translate(550.779 102.438)" fill="#19214a"/>
+        <g id="组_178" data-name="组 178">
+          <rect id="矩形_103" data-name="矩形 103" width="36.964" height="4.173" transform="translate(550.779 94.184)" fill="#e1001a"/>
+          <rect id="矩形_104" data-name="矩形 104" width="36.964" height="4.174" transform="translate(550.779 114.653)" fill="#e1001a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

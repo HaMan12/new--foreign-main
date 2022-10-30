@@ -1,0 +1,45 @@
+.form-radio {
+  input[type="radio"] {
+    display: none;
+    &:checked {
+      ~ .form-radio__btn {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+  }
+}
+
+.form-radio__btn {
+  display: inline-block;
+  background-color: $white;
+  border: 1px solid $primary;
+  border-radius: 31px;
+  transition: background-color .3s,color .3s;
+  padding: 1.25rem;
+  cursor: pointer;
+  @include mq(xl) {
+    padding: 1.25rem 7.8125rem;
+  }
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.form-radio--spacing {
+  width: 100%;
+  padding: 1.25rem;
+  @include mq(xl) {
+    padding: 1.25rem 5rem;
+  }
+}
+
+.form-radio--opacity {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  @include mq(xl) {
+    display: block;
+  }
+}

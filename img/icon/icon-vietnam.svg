@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="路径_829" data-name="路径 829" d="M714.745,106.178a12,12,0,1,1-12-12,12,12,0,0,1,12,12Z" transform="translate(-690.745 -94.179)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-icon-vietnam">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="icon-vietnam" clip-path="url(#clip-icon-vietnam)">
+    <g id="越南文" transform="translate(-690.745 -94.179)">
+      <g id="组_173" data-name="组 173" transform="translate(690.745 94.179)" clip-path="url(#clip-path)">
+        <g id="组_172" data-name="组 172" transform="translate(-5.999 0.005)">
+          <rect id="矩形_97" data-name="矩形 97" width="35.998" height="23.999" fill="#e1001a"/>
+          <path id="路径_828" data-name="路径 828" d="M702.882,99.084l1.6,5.018,5.35.03-4.317,3.1,1.663,5.071-4.3-3.189-4.3,3.189,1.66-5.071-4.314-3.1,5.349-.03Z" transform="translate(-684.882 -94.312)" fill="#ffe300"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
